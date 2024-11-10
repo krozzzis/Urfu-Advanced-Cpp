@@ -1,8 +1,5 @@
 #include "figures.hpp"
-
 #include <cmath>
-
-static constexpr double PI = 3.14;
 
 Rect::Rect(double a, double b) {
     if (a <= 0 || b <= 0) {
