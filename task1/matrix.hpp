@@ -1,7 +1,12 @@
 #pragma once
 
+#include <vector>
+
 class Matrix
 {
+private:
+    int w, h;
+    std::vector<std::vector<int>> data;
 public:
     Matrix() = default;
     Matrix(int numRows, int numCols);
